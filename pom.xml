@@ -18,6 +18,28 @@
         <tags></tags>
         <webdriver.base.url></webdriver.base.url>
     </properties>
+
+    <repositories>
+        <repository>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+            <id>bintray-maven</id>
+            <name>bintray</name>
+            <url>https://dl.bintray.com/jaycroaker/maven</url>
+        </repository>
+    </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+            <id>bintray-maven</id>
+            <name>bintray-plugins</name>
+            <url>https://dl.bintray.com/jaycroaker/maven</url>
+        </pluginRepository>
+    </pluginRepositories>
+
     <dependencies>
         <dependency>
             <groupId>net.serenity-bdd</groupId>
